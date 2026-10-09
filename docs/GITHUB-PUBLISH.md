@@ -1,4 +1,6 @@
-# 上传 GitHub 前后
+# 发布与贡献检查
+
+明单已迁入 [zhoujingkai14-a11y/mingdan](https://github.com/zhoujingkai14-a11y/mingdan)。下方命令是自行建立独立发布仓库时的参考流程，当前项目无需重复初始化。当前版本和实际检查结果见[发布检查](PUBLICATION-CHECK.md)。
 
 ## 发布范围
 
@@ -20,7 +22,7 @@ git remote add origin https://github.com/YOUR_ACCOUNT/mingdan.git
 git push -u origin HEAD:main
 ~~~
 
-若本目录已初始化 Git，跳过 init；不要把原开发仓库的 origin、历史或对象复制过来。只使用你自己已登录的 GitHub 账号，令牌不写入 remote URL。以上是待执行说明，本次准备不自动上传。
+若本目录已初始化 Git，跳过 init；不要把原开发仓库的 origin、历史或对象复制过来。只使用你自己已登录的 GitHub 账号，令牌不写入 remote URL。以上是供后续自行发布使用的命令说明；本项目当前版本已经上传，请查看本仓库的 Actions 和 Release。
 
 ## 公开前远端检查
 

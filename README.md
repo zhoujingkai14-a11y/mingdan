@@ -2,7 +2,13 @@
 
 把客户零散消息整理成带原话依据的需求清单，按设计师自己的标准计算报价，并保留每次变更与客户确认。
 
-**状态：免费测试中的自部署软件，尚无本项目提供的公开托管试用地址。** 本仓库发布的是可运行的应用源码，GitHub 仓库本身不是在线服务。
+[![Verify publication](https://github.com/zhoujingkai14-a11y/mingdan/actions/workflows/ci.yml/badge.svg)](https://github.com/zhoujingkai14-a11y/mingdan/actions/workflows/ci.yml)
+
+![明单封面：折光玻璃背景与需求归整展示](docs/media/cover.webp)
+
+[新手教程](docs/GETTING-STARTED.md) · [下载测试版](https://github.com/zhoujingkai14-a11y/mingdan/releases/tag/v0.1.0-beta.1) · [反馈使用问题](https://github.com/zhoujingkai14-a11y/mingdan/issues/new/choose) · [版本记录](CHANGELOG.md)
+
+**版本：0.1.0-beta.1，免费测试中的自部署软件，尚无本项目提供的公开托管试用地址。** 本仓库发布的是可运行的应用源码，GitHub 仓库本身不是在线服务。
 
 ## 可以完成什么
 
@@ -13,11 +19,32 @@
 - 多设计师账号隔离、恢复密钥、管理者使用统计与主动反馈。
 - SQLite 持久化、在线一致性备份及请求频率和并发控制。
 
+## 看一笔订单如何完成
+
+下面的截图与演示来自当前应用的独立本机环境，使用虚构客户、人工整理及示例个人价格，真实模型调用数为 0。完整流程已实际执行：设计师审核 → 匿名客户确认 V1 → 新增交付保存 V2；原 V1 保持确认状态。示例价格不代表市场指导价。
+
+| 客户消息 | 核对与报价 |
+| --- | --- |
+| ![保留虚构客户原话](docs/media/messages.webp) | ![人工建立交付清单与个人报价](docs/media/quote.webp) |
+
+| 客户确认 | 变更与版本 |
+| --- | --- |
+| ![客户独立核对本版范围与金额](docs/media/customer.webp) | ![保留 V1 并核算新增交付](docs/media/versions.webp) |
+
+![明单手动整理、报价、客户确认与新增版本的简短演示](docs/media/walkthrough.gif)
+
+演示采用自动预填的虚构字段和真实页面操作，用于展示软件流程；AI 理解质量需用自己的模型配置另行验证。逐屏操作和常见问题见[新手教程](docs/GETTING-STARTED.md)。
+
 ## 三步在本机运行
 
 需要 **Node.js 24.x**（含 npm）。运行代码无需安装第三方 npm 依赖。
 
-1. 下载本仓库，进入项目目录。
+1. 下载[测试版源码](https://github.com/zhoujingkai14-a11y/mingdan/releases/tag/v0.1.0-beta.1)并解压，进入包含 `package.json` 的目录；或执行：
+
+~~~sh
+git clone https://github.com/zhoujingkai14-a11y/mingdan.git
+cd mingdan
+~~~
 2. 创建本机配置：
 
 ~~~sh
@@ -87,4 +114,4 @@ tools/                       本机配置与发布检查
 
 采用 **AGPL-3.0-only**，完整条款见 [LICENSE](LICENSE)，来源与素材见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。该许可证允许商用；修改后对外提供网络服务时，应按许可证向该服务用户提供相应源码。它不承诺独家销售权，也不会自动保护品牌名称。
 
-首次公开前按 [上传说明](docs/GITHUB-PUBLISH.md) 审核本目录。此版本的检查范围及未验证事项见 [发布检查](docs/PUBLICATION-CHECK.md)。
+本项目已从旧仓库迁入当前仓库，保留已公开的源码提交历史。验证记录与尚未验收的内容见[发布检查](docs/PUBLICATION-CHECK.md)，自行发布或贡献前见[上传说明](docs/GITHUB-PUBLISH.md)。

@@ -1,15 +1,23 @@
 {
   "app": "mingdan",
-  "version": "0.1.0",
-  "preparedAt": "2026-10-08T12:43:48.701Z",
+  "version": "0.1.0-beta.1",
+  "preparedAt": "2026-10-09T04:37:47.964Z",
   "distribution": "portable-node-public-app",
   "license": "AGPL-3.0-only",
   "sourceHistoryIncluded": false,
+  "privateDevelopmentHistoryIncluded": false,
+  "publicHistoryPreserved": true,
+  "sourcePublicCommit": "aeb3aac5e5c0e93d31daaa35a71bcc97bb333530",
   "privateCredentialsIncluded": false,
   "operationalDatabaseIncluded": false,
   "customerDataIncluded": false,
+  "media": {
+    "syntheticScenario": true,
+    "manualPrefill": true,
+    "liveModelRequests": 0
+  },
   "review": {
-    "scannedFiles": 76,
+    "scannedFiles": 86,
     "secretFindings": 0,
     "blockedPaths": 0
   },
@@ -26,8 +34,8 @@
     },
     {
       "file": ".gitattributes",
-      "bytes": 152,
-      "sha256": "63272108c9fb4f87a036ac094a0f45aca545738f44dd33e23e1f214f07ff3481"
+      "bytes": 165,
+      "sha256": "b177f157244050b1aee29d074c65fcf90291d23f0de52c0a28ba197a93494217"
     },
     {
       "file": ".githooks/pre-commit",
@@ -70,6 +78,11 @@
       "sha256": "77804a788025576be4d8f66ddd9670479b6d4c4982c0b5c37a51395977110dda"
     },
     {
+      "file": "CHANGELOG.md",
+      "bytes": 839,
+      "sha256": "8a641d07ad010b13c33bf9d3d593bfef524c629221fa9211eac3dee915bbbbc2"
+    },
+    {
       "file": "CONTRIBUTING.md",
       "bytes": 887,
       "sha256": "2ff4c6e6a33ed3a65eb5bfe24173d752fbb2be7e48cb38601a34649e4539084a"
@@ -86,13 +99,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 5036,
-      "sha256": "f537b3c707e06d83fa266573ea1d51c2c1e189a78109f00de4ee6701b490b888"
+      "bytes": 6883,
+      "sha256": "b58457af5cf074eeec00b6b4233436d67c167202d3141b05338607b696b66b8e"
     },
     {
       "file": "SECURITY.md",
-      "bytes": 851,
-      "sha256": "42870dea07c2e004be5cc516a66c53a9b8acb6b72db7400aceedde6fc573e6a2"
+      "bytes": 1074,
+      "sha256": "cbff9f0a1b2c9f99c2fd39070a9c255f3100705f47fb61b16a867610b2721836"
     },
     {
       "file": "THIRD_PARTY_NOTICES.md",
@@ -135,24 +148,64 @@
       "sha256": "39033af47a76bbe2d28fb54458b2408ed05bb096c6d3479e439599478d07a5b9"
     },
     {
+      "file": "docs/GETTING-STARTED.md",
+      "bytes": 7023,
+      "sha256": "4ed00b081b8297b82a38af139f674cb6f1daac492bedaa21bfd8f9ca37ddb1f0"
+    },
+    {
       "file": "docs/GITHUB-PUBLISH.md",
-      "bytes": 1837,
-      "sha256": "9d018cc3488517e4a3daea90896e207bdf429f6d100e66e9ddf974c4a544ae8e"
+      "bytes": 2188,
+      "sha256": "7549aa5893b966b44fcfff1caea0315f47796e2bcbff215a0d6439ae405e71c8"
     },
     {
       "file": "docs/PUBLICATION-CHECK.md",
-      "bytes": 1556,
-      "sha256": "218565c84b43159cc19ad9be4a1239f0f5d74a7a340f43d16a06c6cbf73f9cb3"
+      "bytes": 2576,
+      "sha256": "c1baca1faf4e5624647c346d90317c93bac83f0b2f4929920991eaacb82c7cc1"
+    },
+    {
+      "file": "docs/media/cover.webp",
+      "bytes": 99160,
+      "sha256": "63f3dc45610a9c1874de05f4e5a1e882598c1f4ce2310535b4d8c5098d8fa229"
+    },
+    {
+      "file": "docs/media/customer.webp",
+      "bytes": 52306,
+      "sha256": "5724cbbb37ca3df2d0f94053e76e5fcff7093c0c5cdae5f47650e060bf9335c2"
+    },
+    {
+      "file": "docs/media/messages.webp",
+      "bytes": 85424,
+      "sha256": "5b2087917ee92d6e9da4cbd776b763361a55cb9af1b23457294a705cdd081049"
+    },
+    {
+      "file": "docs/media/quote.webp",
+      "bytes": 85266,
+      "sha256": "e0c3c497df3ed6b270c1d503902c52f5e85f0c47d5e00f5c9a8e5f33832face8"
+    },
+    {
+      "file": "docs/media/register.webp",
+      "bytes": 72794,
+      "sha256": "05bebbcbd0f4fb800ae1e6de6cc108cd1f6a82ea0d2ebf8e763ff347b148496f"
+    },
+    {
+      "file": "docs/media/versions.webp",
+      "bytes": 80652,
+      "sha256": "0f29d86ddb244b7de6a0b05060cc1b8fc89876ba6edfd65e2b4ca64fbf668c78"
+    },
+    {
+      "file": "docs/media/walkthrough.gif",
+      "bytes": 3429762,
+      "sha256": "ce2b727576a161d0ee6c40d6c16ff3ef188431382f4f4572b16b4efa82fc539f"
     },
     {
       "file": "package-lock.json",
-      "bytes": 266,
-      "sha256": "da40a8fd4a199af8eef586c037b0e3e40170a541312760709663c42d09c2b23f"
+      "bytes": 280,
+      "sha256": "e567a11b10f6a10dbdf52b523a714493e99e21ccb99802b4fb5da01ad3a18678"
     },
     {
       "file": "package.json",
-      "bytes": 783,
-      "sha256": "d16b4792181a97b270f8de105d406dc8d55086aaaec6598546af2abe98a7c7fe"
+      "bytes": 790,
+      "sha256": "c9ea9fe4fac37a2656a32c7e0f484a1524e4199745e3d4653e99c28b41bfcaee"
     },
     {
       "file": "sites-mingdan/drizzle/0000_tense_justin_hammer.sql",
