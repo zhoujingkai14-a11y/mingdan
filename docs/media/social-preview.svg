@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title description">
+<title id="title">明单 Mingdan · 设计师接单报价助手</title>
+<desc id="description">客户的随口要求变成明确的委托。虚构示例展示个人报价和客户确认版本，价格由设计师设定。</desc>
+<defs>
+  <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10252a"/><stop offset="1" stop-color="#09171c"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#75c9b1" stop-opacity=".14"/><stop offset=".48" stop-color="#497c74" stop-opacity=".04"/><stop offset="1" stop-color="#8cdcc3" stop-opacity=".24"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8cdcc3" stop-opacity="0"/><stop offset=".6" stop-color="#8cdcc3" stop-opacity=".8"/><stop offset="1" stop-color="#8cdcc3" stop-opacity=".15"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000a0d" flood-opacity=".5"/></filter>
+</defs>
+<rect width="1280" height="640" fill="url(#backdrop)"/>
+<g fill="url(#glass)" stroke="#81c7b4" stroke-opacity=".16"><path d="M743 -80 928 30 928 697 743 586Z"/><path d="M1050 -47 1250 -110 1250 640 1050 680Z"/><path d="M623 468 1280 229 1280 436 623 640Z"/></g>
+<path d="M673 554 1235 349" stroke="url(#edge)" stroke-width="2"/>
+<g font-family="Microsoft YaHei, Segoe UI, sans-serif">
+<g fill="#8cdcc3"><path d="M64 55h9v31h-9zM80 55h9v12h-9zM80 74h9v12h-9z"/></g>
+<text x="108" y="81" font-size="29" font-weight="700" fill="#edf5ef">明单 <tspan dx="8" font-size="26" font-weight="500">Mingdan</tspan></text>
+<text x="64" y="202" font-size="49" font-weight="700" fill="#edf5ef">把客户的随口要求</text>
+<text x="64" y="268" font-size="49" font-weight="700" fill="#edf5ef">变成明确的委托</text>
+<text x="64" y="320" font-size="22" fill="#b5ceca">设计师接单报价与客户确认助手</text>
+<path d="M64 358h460" stroke="#425e5d"/>
+<text x="64" y="400" font-size="23" fill="#d4e6e0">理清需求　按个人标准报价</text>
+<text x="64" y="439" font-size="23" fill="#d4e6e0">客户确认　变更形成新版本</text>
+<text x="64" y="495" font-size="22" fill="#8cdcc3">AI briefs, quotes &amp; client approvals</text>
+<g filter="url(#shadow)" transform="translate(659 115)">
+  <rect x="28" y="12" width="452" height="387" rx="14" fill="#132a2c" stroke="#54786f"/>
+  <text x="54" y="47" font-size="16" fill="#b3d4ca">V1 已保留 · 客户已确认</text>
+  <rect x="0" y="56" width="470" height="341" rx="14" fill="#edf2e9"/>
+  <text x="28" y="98" font-size="24" font-weight="700" fill="#183b36">青禾咖啡 · 开业视觉</text>
+  <text x="28" y="128" font-size="16" fill="#57716a">V2 报价草稿 · 新增交付待确认</text>
+  <path d="M28 149h414" stroke="#cbd8ce"/>
+  <text x="28" y="185" font-size="19" fill="#294640">原交付范围</text>
+  <text x="442" y="185" font-size="21" font-weight="700" fill="#294640" text-anchor="end">¥800</text>
+  <text x="28" y="214" font-size="15" fill="#5a746d">主海报 × 1　尺寸适配 × 2</text>
+  <rect x="20" y="236" width="430" height="59" rx="8" fill="#d2e7dc"/>
+  <text x="34" y="272" font-size="18" fill="#24493d">新增店内海报 × 2</text>
+  <text x="433" y="272" font-size="22" font-weight="700" fill="#24493d" text-anchor="end">+ ¥800</text>
+  <path d="M28 316h414" stroke="#cbd8ce"/>
+  <text x="28" y="355" font-size="16" fill="#526c63">按示例个人标准计算</text>
+  <text x="442" y="363" font-size="40" font-weight="700" fill="#195a49" text-anchor="end">¥1,600</text>
+</g>
+<g transform="translate(861 72)"><rect width="329" height="70" rx="13" fill="#193e39" stroke="#669a85"/><text x="22" y="29" font-size="15" fill="#a9cdbf">客户后续消息</text><text x="22" y="53" font-size="20" fill="#edf5ef">“再加两张店内海报”</text></g>
+<path d="M1024 149v14m-5-5 5 5 5-5" fill="none" stroke="#86cbb3" stroke-width="2"/>
+<path d="M64 562h1152" stroke="#33534f"/>
+<text x="64" y="599" font-size="17" fill="#b5ccc3">github.com/zhoujingkai14-a11y/mingdan</text>
+<text x="1216" y="599" font-size="16" fill="#a0bcb1" text-anchor="end">开源 · 可自行部署　｜　虚构示例 · 价格由设计师设定</text>
+</g></svg>

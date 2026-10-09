@@ -1,7 +1,7 @@
 {
   "app": "mingdan",
   "version": "0.1.0-beta.1",
-  "preparedAt": "2026-10-09T04:37:47.964Z",
+  "preparedAt": "2026-10-09T06:04:57.847Z",
   "distribution": "portable-node-public-app",
   "license": "AGPL-3.0-only",
   "sourceHistoryIncluded": false,
@@ -17,7 +17,7 @@
     "liveModelRequests": 0
   },
   "review": {
-    "scannedFiles": 86,
+    "scannedFiles": 93,
     "secretFindings": 0,
     "blockedPaths": 0
   },
@@ -98,9 +98,14 @@
       "sha256": "c7d2d0a319b75e82c0e66efc246977c36c11e37fc32df30e28aef73b9c5d38c8"
     },
     {
+      "file": "README.en.md",
+      "bytes": 5082,
+      "sha256": "199246e278661fa9d35954a74c760b60694393094a0034fc4ee152080fe2e635"
+    },
+    {
       "file": "README.md",
-      "bytes": 6883,
-      "sha256": "b58457af5cf074eeec00b6b4233436d67c167202d3141b05338607b696b66b8e"
+      "bytes": 7281,
+      "sha256": "2058f9d895bd87c6289ea0bf2115815c52da6aadb2e9d3ae69fefdb5aad4c88a"
     },
     {
       "file": "SECURITY.md",
@@ -109,8 +114,8 @@
     },
     {
       "file": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1682,
-      "sha256": "f70b9e495e85abd648175ae9ff0ab82b2f6db3760869944ab27ebb32a712b5d6"
+      "bytes": 1963,
+      "sha256": "32fe5febea62afa5c4500c91762e9211e05af5030c4f55047f8ecdea723ff3f3"
     },
     {
       "file": "deploy/public-backup.mjs",
@@ -159,8 +164,8 @@
     },
     {
       "file": "docs/PUBLICATION-CHECK.md",
-      "bytes": 2576,
-      "sha256": "c1baca1faf4e5624647c346d90317c93bac83f0b2f4929920991eaacb82c7cc1"
+      "bytes": 2950,
+      "sha256": "6478b1821039a752e352d805b54ddd89ef4c76cfa73f6259763a49aaa61280c5"
     },
     {
       "file": "docs/media/cover.webp",
@@ -188,6 +193,16 @@
       "sha256": "05bebbcbd0f4fb800ae1e6de6cc108cd1f6a82ea0d2ebf8e763ff347b148496f"
     },
     {
+      "file": "docs/media/social-preview.png",
+      "bytes": 206830,
+      "sha256": "1f7b827c00b5ab7693e0957f50ded576b78df875537e83de7005db8354549338"
+    },
+    {
+      "file": "docs/media/social-preview.svg",
+      "bytes": 4398,
+      "sha256": "078d63a7f5e18e877de1df0716030cd90bdf69bc2a9d9e8aee1f93013f38ccf6"
+    },
+    {
       "file": "docs/media/versions.webp",
       "bytes": 80652,
       "sha256": "0f29d86ddb244b7de6a0b05060cc1b8fc89876ba6edfd65e2b4ca64fbf668c78"
@@ -196,6 +211,26 @@
       "file": "docs/media/walkthrough.gif",
       "bytes": 3429762,
       "sha256": "ce2b727576a161d0ee6c40d6c16ff3ef188431382f4f4572b16b4efa82fc539f"
+    },
+    {
+      "file": "docs/promotion/COMMUNITY.md",
+      "bytes": 2673,
+      "sha256": "cc0860f7b8f14f5cfd1d61a9a48a90a8fdb6dda04cc11a0817ba94c2419cb416"
+    },
+    {
+      "file": "docs/promotion/HELLOGITHUB.md",
+      "bytes": 2455,
+      "sha256": "f81c188d241ae9d555f72431156cf0058b344467125c6d1140fcec9f0ad14f98"
+    },
+    {
+      "file": "docs/promotion/README.md",
+      "bytes": 3007,
+      "sha256": "afdf66d5603ef94bc718eba20c115b39a1ab9d260821ee2edb1b79a43cf7846a"
+    },
+    {
+      "file": "docs/promotion/XIAOHONGSHU.md",
+      "bytes": 2582,
+      "sha256": "7f6bd6fdf7b8f7e5a1e9a12c636c8354dbd03b853aa797aa32cb993fbb36af02"
     },
     {
       "file": "package-lock.json",
@@ -447,5 +482,11 @@
       "bytes": 7579,
       "sha256": "790f1bf9f8c6ce3499945106540ddc490d238f5d49a23fb6afe1e925c51277b2"
     }
-  ]
+  ],
+  "promotion": {
+    "englishIntroduction": true,
+    "interfacePrimarilyChinese": true,
+    "coverIsIllustrative": true,
+    "externalSubmissionsSent": false
+  }
 }

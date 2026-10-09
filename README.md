@@ -1,14 +1,20 @@
-# 明单 · AI 需求整理与报价确认助手
+# 明单 Mingdan · 设计师接单报价助手
 
-把客户零散消息整理成带原话依据的需求清单，按设计师自己的标准计算报价，并保留每次变更与客户确认。
+**客户说“再加两张”，先说清新增工作，再确认新的报价。**
+
+把零散客户消息整理成带原话依据的需求清单，按设计师自己的收费标准计算报价，保存双方确认的范围与后续变更。
+
+*AI briefs, quotes & client approvals for freelance designers.*
+
+[English](README.en.md) · [新手教程](docs/GETTING-STARTED.md) · [下载测试版](https://github.com/zhoujingkai14-a11y/mingdan/releases/tag/v0.1.0-beta.1) · [反馈问题](https://github.com/zhoujingkai14-a11y/mingdan/issues/new/choose)
 
 [![Verify publication](https://github.com/zhoujingkai14-a11y/mingdan/actions/workflows/ci.yml/badge.svg)](https://github.com/zhoujingkai14-a11y/mingdan/actions/workflows/ci.yml)
 
-![明单封面：折光玻璃背景与需求归整展示](docs/media/cover.webp)
+![明单：客户消息、个人报价与客户确认连接起来](docs/media/social-preview.png)
 
-[新手教程](docs/GETTING-STARTED.md) · [下载测试版](https://github.com/zhoujingkai14-a11y/mingdan/releases/tag/v0.1.0-beta.1) · [反馈使用问题](https://github.com/zhoujingkai14-a11y/mingdan/issues/new/choose) · [版本记录](CHANGELOG.md)
+**版本：0.1.0-beta.1。可自行部署的开源测试版；目前没有项目方提供的公共在线试用服务。** 界面和现有需求整理场景以中文为主，英文介绍不代表完整英文界面。
 
-**版本：0.1.0-beta.1，免费测试中的自部署软件，尚无本项目提供的公开托管试用地址。** 本仓库发布的是可运行的应用源码，GitHub 仓库本身不是在线服务。
+当前聚焦海报、视觉设计等接单场景。客户查看交付范围、条件和总价；设计师保留内部原话和个人价格表。展示价格为虚构案例中的个人设置，不代表市场指导价。
 
 ## 可以完成什么
 

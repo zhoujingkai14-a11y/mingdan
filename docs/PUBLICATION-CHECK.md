@@ -12,6 +12,10 @@
 
 新仓库对应提交的结果以[当前 GitHub Actions](https://github.com/zhoujingkai14-a11y/mingdan/actions/workflows/ci.yml)及[版本发布说明](https://github.com/zhoujingkai14-a11y/mingdan/releases/tag/v0.1.0-beta.1)为准。CI 徽章随仓库当前分支状态变化，不能将其他提交的通过结果当作本版的结果。
 
+## 仓库介绍与素材更新
+
+2026-10-09 补充中英文介绍、可编辑分享封面和待投稿文案，未改变应用代码。此次上传核对本地文档链接、Git 暂存内容与发布清单、密钥和历史；新提交的检查状态以其 GitHub Actions 记录为准。固定测试版下载包仍指向原发布提交，不会被这次文档更新改写。
+
 ## 发布范围
 
 保留此前已审核并公开的仓库提交历史；本机开发工作区的私有历史未引入。具体文件、大小和 SHA-256 记录在 `release-manifest.json`，不记录清单文件自身的哈希。
